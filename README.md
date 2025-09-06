@@ -2,20 +2,20 @@
 This project demonstrates an AI agent that plans, takes actions, observes results, and produces outputs — using OpenAI’s Chat Completions API and a custom weather tool powered by WeatherAPI.
 
 The agent follows a structured reasoning process:
-  Plan – Decide which tool to call.
-  Action – Call the weather function with the city name.
-  Observation – Receive the weather data.
-  Output – Return the final response to the user.
+  - Plan – Decide which tool to call.
+  - Action – Call the weather function with the city name.
+  - Observation – Receive the weather data.
+  - Output – Return the final response to the user.
 
 ---
 
 ## 🚀 Features
 
-AI-driven multi-step reasoning (PLAN → ACTION → OBSERVATION → OUTPUT).
-Integration with WeatherAPI to fetch real-time weather data.
-CLI-based chatbot interface with readline-sync.
-Secure API key handling via dotenv.
-Extendable tools framework for adding more functions.
+- AI-driven multi-step reasoning (PLAN → ACTION → OBSERVATION → OUTPUT).
+- Integration with WeatherAPI to fetch real-time weather data.
+- CLI-based chatbot interface with readline-sync.
+- Secure API key handling via dotenv.
+- Extendable tools framework for adding more functions.
 
 ---
 
@@ -29,7 +29,7 @@ cd Weather-Agent-with-OpenAI-WeatherAPI
 npm install
 ```
 
-Set up the # WEATHER_API_KEY and # OPENAI_API_KEY
+Set up the **WEATHER_API_KEY** and **OPENAI_API_KEY**
 
 ```bash
 node index.js
